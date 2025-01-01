@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+demucs = "*"
+elevenlabs = "*"
+torchaudio = "*"
+ffmpeg = "*"
+openai = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-openai = "*"
+python-dotenv = "*"
+audio-separator = {extras = ["gpu"], version = "*"}
+torch = "*"
+torchvision = "*"
+onnxruntime-gpu = "*"
+ffmpeg-python = "*"
+assemblyai = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
+python_full_version = "3.12.6"
